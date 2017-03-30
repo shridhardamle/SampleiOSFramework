@@ -81,6 +81,7 @@
 				8FC9F1DC1E8CDBCE00B17849 /* Frameworks */,
 				8FC9F1DD1E8CDBCE00B17849 /* Headers */,
 				8FC9F1DE1E8CDBCE00B17849 /* Resources */,
+				8FC9F1F41E8CE08900B17849 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -133,6 +134,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FC9F1F41E8CE08900B17849 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${PROJECT_DIR}/bin/\nrm -f ${PRODUCT_NAME}.zip\nditto ${BUILT_PRODUCTS_DIR}/ .\nzip -r ${PRODUCT_NAME}.zip *\nrm -rf ${PRODUCT_NAME}.framework\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8FC9F1DB1E8CDBCE00B17849 /* Sources */ = {
@@ -297,6 +314,7 @@
 				8FC9F1EA1E8CDBCE00B17849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
