@@ -22,7 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		8FC9F1E51E8CDBCE00B17849 /* FooBarLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC9F1E31E8CDBCE00B17849 /* FooBarLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FC9F1ED1E8CDBF800B17849 /* FooBarClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC9F1EB1E8CDBF800B17849 /* FooBarClass.h */; };
+		8FC9F1ED1E8CDBF800B17849 /* FooBarClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC9F1EB1E8CDBF800B17849 /* FooBarClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FC9F1EE1E8CDBF800B17849 /* FooBarClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC9F1EC1E8CDBF800B17849 /* FooBarClass.m */; };
 /* End PBXBuildFile section */
 

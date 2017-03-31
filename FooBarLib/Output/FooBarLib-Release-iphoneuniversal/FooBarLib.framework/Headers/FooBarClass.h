@@ -1,16 +1,13 @@
 //
-//  FooBarClass.m
+//  FooBarClass.h
 //  FooBarLib
 //
 //  Created by Shridhar Damale on 30/03/17.
 //  Copyright © 2017 Shridhar Damale. All rights reserved.
 //
 
-#import "FooBarClass.h"
+#import <Foundation/Foundation.h>
 
-@implementation FooBarClass
--(bool) fooBarFunc
-{
-    return NO;
-}
+@interface FooBarClass : NSObject
+-(bool) fooBarFunc;
 @end
